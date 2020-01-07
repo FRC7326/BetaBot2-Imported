@@ -27,7 +27,7 @@ public class Elevator extends Subsystem {
     setDefaultCommand(new mainelvcommand());
 
   }
-  public class ElevatorModule{
+  public class ElevatorModule{ 
     private TalonSRX mLift;
     public ElevatorModule(int kDriveID) {
       mLift = new TalonSRX(kDriveID);
